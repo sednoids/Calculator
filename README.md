@@ -2,7 +2,7 @@
 
 This is a Python 3 calculator that runs from the terminal. 
 
-## What will it do?
+## What does it do?
 It will perform basic mathematical operations: add, substract, multiply and divide. It will also display the result.
 
 ## How to run
