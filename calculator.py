@@ -1,4 +1,4 @@
-# SCCM4910 DevOps - a four operation calculator
+# SCCM4910 DevOps - a calculator
 
 def add(a, b):
     return a + b
