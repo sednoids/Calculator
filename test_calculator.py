@@ -1,4 +1,6 @@
-from calculator import add, subtract, multiply, divide
+from calculator import add, subtract, multiply, divide, exp
+
+# exp does not exist (yet)
 
 def test_add():
     assert add(2, 3) == 5
@@ -11,6 +13,9 @@ def test_multiply():
 
 def test_divide():
     assert divide(6, 2) == 3
+
+def test_exp():
+    assert exp(3, 3) == 27
 
 def test_multiplication_by_zero():
     # Arrange
