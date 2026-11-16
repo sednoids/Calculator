@@ -12,6 +12,9 @@ def multiply(a, b):
 def divide(a, b):
     return a / b
 
+def exp(a, b):
+    return a ** b
+
 def main():
     while True:
         a = float(input("Enter the first number: "))
@@ -27,8 +30,11 @@ def main():
                 print(f"Result: {multiply(a, b)}")
             case "/":
                 print(f"Result: {divide(a, b)}")
+            case "^":
+                print(f"Result: {exp(a, b)}")
             case _:
                 print("Enter a valid operator.")
+            
 
 if __name__ == "__main__":
     main()
