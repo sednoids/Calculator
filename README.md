@@ -24,7 +24,7 @@ To test all the operations, run `./check.sh`. It contains five different tests:
 - `test_subtract()` tests substracting, the test `5 - 4` should equal `1`.
 - `test_multiply()` tests multiplying, the test `6 * 6` should equal `36`.
 - `test_divide()` tests dividing, the test `6 / 2` should equal `3`.
-- `test_multiplication_by_zero` tests a multiplication by zero, `0 * 0` should equal `0`.
+- `test_multiplication_by_zero()` tests a multiplication by zero, `0 * 0` should equal `0`.
 
 ### Exit statuses
 
