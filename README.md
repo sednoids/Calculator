@@ -3,7 +3,7 @@
 This is a Python 3 calculator that runs from the terminal. 
 
 ## What does it do?
-It will perform basic mathematical operations: add, substract, multiply and divide. It will also display the result.
+It will perform basic mathematical operations: add, subtract, multiply, divide and power. It will also display the result.
 
 ## How to run
 
@@ -21,7 +21,7 @@ Have Python 3 installed on your computer.
 To test all the operations, run `./check.sh`. It contains five different tests:
 
 - `test_add()` tests adding, the test `2 + 3` should equal `5`.
-- `test_subtract()` tests substracting, the test `5 - 4` should equal `1`.
+- `test_subtract()` tests subtracting, the test `5 - 4` should equal `1`.
 - `test_multiply()` tests multiplying, the test `6 * 6` should equal `36`.
 - `test_divide()` tests dividing, the test `6 / 2` should equal `3`.
 - `test_power()` tests exponents, the test `3 ** 3` (or `3^3`) should equal 27. 
