@@ -1,6 +1,4 @@
-#!/bin/python
 from calculator import add, subtract, multiply, divide, exp
-import sys
 
 def test_add():
     assert add(2, 3) == 5
@@ -25,18 +23,3 @@ def test_multiplication_by_zero():
     # Assert
     assert result == 0
 
-def main():
-    try:
-        test_add()
-        test_subtract()
-        test_multiply()
-        test_divide()
-        test_exp()
-        test_multiplication_by_zero()
-        sys.exit(0)
-    except AssertionError as error:
-        print(f"QUALITY GATE FAILED: {error}")
-        sys.exit(1)
-
-if __name__ == "__main__":
-    main()
