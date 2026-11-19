@@ -36,6 +36,8 @@ def main():
                 print(f"Result: {divide(a, b)}")
             case "^":
                 print(f"Result: {exp(a, b)}")
+            case "**":
+                print(f"Result: {modulo(a, b)}")
             case _:
                 print("Enter a valid operator.")
             
