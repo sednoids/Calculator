@@ -32,6 +32,6 @@ To test all the operations, run `./check.sh`. It contains five different tests:
 
 Run `echo $?` to show the exit status of the test. The output can be:
 
-`0` - no tests failed
-`1` - at least one test failed
-`5` - no tests were collected
+- `0` - no tests failed
+- `1` - at least one test failed
+- `5` - no tests were collected
