@@ -19,7 +19,7 @@ def test_modulo():
     assert modulo(4, 2) == 0
 
 def test_circleArea():
-    assert circleArea(-4) == "NaN"
+    assert circleArea(-4) == "Error"
 
 def test_multiplication_by_zero():
     # Arrange
