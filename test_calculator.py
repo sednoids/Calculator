@@ -1,4 +1,4 @@
-from calculator import add, subtract, multiply, divide, exp, modulo
+from calculator import add, subtract, multiply, divide, exp, modulo,circleArea
 
 def test_add():
     assert add(2, 3) == 5
@@ -17,6 +17,9 @@ def test_exp():
 
 def test_modulo():
     assert modulo(4, 2) == 0
+
+def test_circleArea():
+    assert circleArea(-4) == "NaN"
 
 def test_multiplication_by_zero():
     # Arrange
