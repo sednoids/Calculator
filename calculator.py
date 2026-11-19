@@ -15,6 +15,7 @@ def divide(a, b):
 def exp(a, b):
     return a ** b
 
+
 def main():
     while True:
         a = float(input("Enter the first number: "))

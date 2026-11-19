@@ -1,3 +1,5 @@
+Starting commit: bc7f93c076a37e5e0fb76efd0a81dbf8ee7d4201
+
 At this point in time, `exp()` had not been implemented yet.
 ![Screenshot_20261116_191855.png](/screenshots/Screenshot_20261116_191855.png)
 Local fail
@@ -12,3 +14,4 @@ CI tests pass
 ![Screenshot_20261116_193016.png](/screenshots/Screenshot_20261116_193016.png)
 Side by side comparison
 ![Screenshot_20261116_195008.png](/screenshots/Screenshot_20261116_195008.png)
+
