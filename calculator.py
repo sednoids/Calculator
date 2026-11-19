@@ -15,6 +15,9 @@ def divide(a, b):
 def exp(a, b):
     return a ** b
 
+def modulo(a, b):
+    return a % b
+
 
 def main():
     while True:
@@ -33,6 +36,8 @@ def main():
                 print(f"Result: {divide(a, b)}")
             case "^":
                 print(f"Result: {exp(a, b)}")
+            case "%":
+                print(f"Result: {modulo(a, b)}")
             case _:
                 print("Enter a valid operator.")
             

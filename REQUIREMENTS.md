@@ -2,11 +2,12 @@
 2. The calculator must be able to substract two numbers.
 3. The calculator must be able to multiply two numbers.
 4. The calculator must be able to divide two numbers.
-5. The calculator must be able to use powers. 
+5. The calculator must be able to use powers.
+6. The calculator must be able to use the modulo operator.
 5. The calculator must be able to display a result after performing the aforementioned operations.
 6. The calculator must be able to only accept numeric values as operands.
 7. The calculator must be able to display a clear error message when attempting a division by zero.
-8. The calcualtor must be able to only accept `+`, `-`, `*`, `/` and `^` as valid operators.
+8. The calcualtor must be able to only accept `+`, `-`, `*`, `/`, `^` and `**` as valid operators.
 
 The calculator must be able to do the above before it can be considered "complete".
 
