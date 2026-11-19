@@ -3,7 +3,6 @@ name: Calculator CI
 on:
   push:
     branches: [main]
-  tests:
 
 permissions:
   contents: read
