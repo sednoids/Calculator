@@ -1,4 +1,4 @@
-from calculator import add, subtract, multiply, divide, exp
+from calculator import add, subtract, multiply, divide, exp, modulo
 
 def test_add():
     assert add(2, 3) == 5
@@ -14,6 +14,9 @@ def test_divide():
 
 def test_exp():
     assert exp(3, 3) == 27
+
+def test_modulo():
+    assert modulo(4, 2) == 0
 
 def test_multiplication_by_zero():
     # Arrange
