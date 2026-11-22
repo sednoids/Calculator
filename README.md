@@ -42,6 +42,10 @@ In addition to these five tests, there are also 12 other tests for the processin
 - `test_process_non_numeric_number`
 - `test_process_exponential_number`
 
+Miscellaneous tests:
+
+``test_circleArea()`` - This tests what the function `circleArea()` returns, in this case whether a negative number returns `"Error"`. 
+
 All these tests are in `test_calculator.py`.
 
 ### Exit statuses
