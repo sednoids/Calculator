@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -e
+
+ROOT="$(git rev-parse --show-toplevel)"
+cd -- "$ROOT"
+echo "----- Calculator quality gate -----"
+python -m pytest -v
+echo "QUALITY GATE PASSED"
